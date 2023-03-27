@@ -4,6 +4,7 @@ title:  "How did the financial crisis affect crime?"
 date:   2023-03-26 18:33:41 +0200
 categories: jekyll update
 ---
+![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/Pasted%20Graphic.jpg)
 1、Time series analysis
 
 By observing the statistics of crime types in 2003-2010, we found some interesting phenomena. The selection of time refers to the two years around 2008 as the observation object and the first three years before the economic crisis began to roll up waves as the comparison year. We select crime types based on their yearly amount distribution:
@@ -30,7 +31,6 @@ We already know that in the time series analysis, the amount of "ROBBERY" has in
 
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png)
 
-<embed type="text/html" src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/robbery_distribution.html" width="800" height="600">
 
 <embed type="text/html" src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/my_map.html" width="800" height="600">
 
@@ -44,6 +44,7 @@ This is a 24-hour crime probability map for five crime categories potentially af
 
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_4.png)
 
+<embed type="text/html" src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/robbery_distribution.html" width="800" height="600">
 
 
 <!DOCTYPE html>
