@@ -19,7 +19,7 @@ Through the above conditions, we screened out 5 types of crimes as follows:
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
-(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)
+<small>(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)</small>
 </div>
 
 
@@ -111,5 +111,5 @@ Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRU
 </html>
 
 <div style="text-align:center">
-(Illustration: This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types.)
+<small>(Illustration: This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types.)</small>
 </div>
