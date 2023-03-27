@@ -41,7 +41,9 @@ This is a 24-hour crime probability map for five crime categories potentially af
  <iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/image/interactive graph.html" width="100%" height="500"></iframe>
 
 
-
 # Robbery distribution
  <iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/image/robbery_distribution.html" width="100%" height="500"></iframe>
 
+
+# Map
+ <iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/image/my_map.html" width="100%" height="500"></iframe>
