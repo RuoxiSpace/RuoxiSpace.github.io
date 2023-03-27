@@ -17,8 +17,20 @@ By observing the statistics of crime types in 2003-2010, we found some interesti
 Through the above conditions, we screened out 5 types of crimes as follows:   
 ['PROSTITUTION', 'ROBBERY', 'BURGLARY', 'DRUNKENNESS', 'DRUG/NARCOTIC']
 
-<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.png" alt="Image" style="display:block;margin:auto;" />
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/01.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <div style="display: flex;">
+    <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/01.png" style="margin-right: 10px;">
+    <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/02.png">
+  </div>
+  <div style="display: flex;">
+    <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/03.png" style="margin-right: 10px;">
+    <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/04.png">
+  </div>
+  <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/05.png" style="margin-top: 20px;">
+</div>
+ 
 <small>(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)</small>
 </div>
 
