@@ -23,7 +23,8 @@ Through the above conditions, we screened out 5 types of crimes as follows:
   <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/03.png">
   <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/04.png">
   <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/05.png">
- 
+<div> 
+
 <div style="text-align:center">
   <small>(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)</small>
 </div>
