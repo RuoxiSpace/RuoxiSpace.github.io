@@ -12,10 +12,10 @@ By observing the statistics of crime types in 2003-2010, we found some interesti
 (1) peaks around year 2008;
 (2) is generally stable from 2003 to 2010 but have a significant increase/decrease before and after the economic crisis.
 Through the above conditions, we screened out 5 types of crimes as follows:
-['PROSTITUTION','ROBBERY','BURGLARY','DRUNKENNESS','DRUG/NARCOTIC']
+['PROSTITUTION', 'ROBBERY', 'BURGLARY', 'DRUNKENNESS', 'DRUG/NARCOTIC']
 
-(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.jpg)
+(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)
 
 Based on the sharp decline in the Dow Jones Industrial Average starting in December of 2007 as a sign of the onset of the financial crisis, we plotted the monthly growth rates of the five crimes relative to December 2007 crime numbers.
 
@@ -25,8 +25,8 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 
 2、Geographic migration of crimes of ‘opportunity’
 
-(Illustration: Distribution of amount of "ROBBERY" during 2006-2008)
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png)
+(Illustration: Distribution of amount of "ROBBERY" during 2006-2008)
 
 Robbery and burglary are crimes of opportunity, meaning that they may be more likely to occur when criminals perceive a weakness in security or an easy target. During the financial crisis, businesses and individuals may have been more vulnerable to crime due to reduced security measures or other factors.
 
@@ -37,7 +37,6 @@ We already know that through time series analysis, under the financial crisis, t
 "ROBBERY" and "BURGLARY" not only generate crime migration phenomena in space, but also "complement each other" in the time distribution of a day. This means that before and after the financial crisis, potential criminals will choose a more suitable place and time to commit crimes according to the current situation. Explore the comparison further.
 Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRUNKNESS", and "DRUG/NARCOTIC" from 2003 to 2018, the 24-hour distribution during the financial crisis also followed this distribution trend, which shows that even these three categories Crime always tends to increase during the period, but does not affect the distribution of crimes during the day.
 
-(Illustration: This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types.)
 
 <!DOCTYPE html>
 <html lang="en">
@@ -100,4 +99,4 @@ Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRU
   </body>
   
 </html>
-
+(Illustration: This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types.)
