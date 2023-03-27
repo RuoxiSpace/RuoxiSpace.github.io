@@ -5,6 +5,7 @@ date:   2023-03-26 18:33:41 +0200
 categories: jekyll update
 ---
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/Pasted%20Graphic.jpg)
+
 1、Time series analysis
 
 By observing the statistics of crime types in 2003-2010, we found some interesting phenomena. The selection of time refers to the two years around 2008 as the observation object and the first three years before the economic crisis began to roll up waves as the comparison year. We select crime types based on their yearly amount distribution:
