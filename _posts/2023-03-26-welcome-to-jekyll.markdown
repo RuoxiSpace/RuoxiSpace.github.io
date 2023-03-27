@@ -6,11 +6,15 @@ categories: jekyll update
 ---
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/Pasted%20Graphic.jpg)
 
+
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/Pasted%20Graphic.jpg" alt="Image" style="display:block;margin:auto;" />
+
 1、Time series analysis
 
 By observing the statistics of crime types in 2003-2010, we found some interesting phenomena. The selection of time refers to the two years around 2008 as the observation object and the first three years before the economic crisis began to roll up waves as the comparison year. We select crime types based on their yearly amount distribution:   
 (1) peaks around year 2008;   
-(2) is generally stable from 2003 to 2010 but have a significant increase/decrease before and after the economic crisis.   
+(2) is generally stable from 2003 to 2010 but have a significant increase/decrease before and after the economic crisis.
+
 Through the above conditions, we screened out 5 types of crimes as follows:
 ['PROSTITUTION', 'ROBBERY', 'BURGLARY', 'DRUNKENNESS', 'DRUG/NARCOTIC']
 
