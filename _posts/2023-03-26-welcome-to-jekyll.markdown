@@ -33,7 +33,7 @@ We already know that in the time series analysis, the amount of "ROBBERY" has in
 
 
 
-3、Crime relative frequency by hour
+3、Crime relative frequency by hour1!!!
 
 This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types. "ROBBERY" and "BURGLARY" not only generate crime migration phenomena in space, but also "complement each other" in the time distribution of a day. This means that before and after the financial crisis, potential criminals will choose a more suitable place and time to commit crimes according to the current situation. Explore the comparison further. Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRUNKNESS", and "DRUG/NARCOTIC" from 2003 to 2018, the 24-hour distribution during the financial crisis also followed this distribution trend, which shows that even these three categories Crime always tends to increase during the period, but does not affect the distribution of crimes during the day.
 
