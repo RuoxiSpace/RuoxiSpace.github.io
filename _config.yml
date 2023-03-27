@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# Allow jekyll web to open link in github
-defaults:
-  - scope:
-      path: ""
-    values:
-      http_headers:
-        Content-Security-Policy: "frame-src 'self' https://*"
+# # Allow jekyll web to open link in github
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       http_headers:
+#         Content-Security-Policy: "frame-src 'self' https://*"
 
 
 title: Assignment 2
