@@ -8,9 +8,9 @@ categories: jekyll update
 
 1、Time series analysis
 
-By observing the statistics of crime types in 2003-2010, we found some interesting phenomena. The selection of time refers to the two years around 2008 as the observation object and the first three years before the economic crisis began to roll up waves as the comparison year. We select crime types based on their yearly amount distribution:
-(1) peaks around year 2008;
-(2) is generally stable from 2003 to 2010 but have a significant increase/decrease before and after the economic crisis.
+By observing the statistics of crime types in 2003-2010, we found some interesting phenomena. The selection of time refers to the two years around 2008 as the observation object and the first three years before the economic crisis began to roll up waves as the comparison year. We select crime types based on their yearly amount distribution:   
+(1) peaks around year 2008;   
+(2) is generally stable from 2003 to 2010 but have a significant increase/decrease before and after the economic crisis.   
 Through the above conditions, we screened out 5 types of crimes as follows:
 ['PROSTITUTION', 'ROBBERY', 'BURGLARY', 'DRUNKENNESS', 'DRUG/NARCOTIC']
 
@@ -36,6 +36,7 @@ We already know that through time series analysis, under the financial crisis, t
 3、Crime relative frequency by hour
 
 "ROBBERY" and "BURGLARY" not only generate crime migration phenomena in space, but also "complement each other" in the time distribution of a day. This means that before and after the financial crisis, potential criminals will choose a more suitable place and time to commit crimes according to the current situation. Explore the comparison further.
+
 Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRUNKNESS", and "DRUG/NARCOTIC" from 2003 to 2018, the 24-hour distribution during the financial crisis also followed this distribution trend, which shows that even these three categories Crime always tends to increase during the period, but does not affect the distribution of crimes during the day.
 
 
