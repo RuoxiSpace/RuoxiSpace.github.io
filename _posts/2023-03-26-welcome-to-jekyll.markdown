@@ -12,7 +12,7 @@ By observing the statistics of crime types in 2003-2010, we found some interesti
 Through the above conditions, we screened out 5 types of crimes as follows:
 ['PROSTITUTION','ROBBERY','BURGLARY','DRUNKENNESS','DRUG/NARCOTIC']
 
-!(figure_1.png)
+![figure_1.png](https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/figure_1.png))
 
 Based on the sharp decline in the Dow Jones Industrial Average starting in December of 2007 as a sign of the onset of the financial crisis, we plotted the monthly growth rates of the five crimes relative to December 2007 crime numbers:
 
