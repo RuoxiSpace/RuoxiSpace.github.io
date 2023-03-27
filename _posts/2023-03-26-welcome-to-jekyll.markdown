@@ -30,7 +30,7 @@ We already know that in the time series analysis, the amount of "ROBBERY" has in
 
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png)
 
-<embed type="text/html" src="file:///Users/zhoulihui/Desktop/my_map.html" width="800" height="600">
+<embed type="text/html" src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/robbery_distribution.html" width="800" height="600">
 
 <embed type="text/html" src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/my_map.html" width="800" height="600">
 
