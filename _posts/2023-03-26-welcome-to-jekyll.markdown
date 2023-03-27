@@ -19,8 +19,9 @@ Through the above conditions, we screened out 5 types of crimes as follows:
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.jpg" alt="Image" style="display:block;margin:auto;" />
 
 <div style="text-align:center">
-Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010
+(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)
 </div>
+
 
 Based on the sharp decline in the Dow Jones Industrial Average starting in December of 2007 as a sign of the onset of the financial crisis, we plotted the monthly growth rates of the five crimes relative to December 2007 crime numbers.
 
@@ -33,7 +34,7 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png" alt="Image" style="display:block;margin:auto;" />
 
 <div style="text-align:center">
-Illustration: Distribution of amount of "ROBBERY" during 2006-2008
+(Illustration: Distribution of amount of "ROBBERY" during 2006-2008)
 </div>
 
 Robbery and burglary are crimes of opportunity, meaning that they may be more likely to occur when criminals perceive a weakness in security or an easy target. During the financial crisis, businesses and individuals may have been more vulnerable to crime due to reduced security measures or other factors.
@@ -110,5 +111,5 @@ Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRU
 </html>
 
 <div style="text-align:center">
-Illustration: This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types.
+(Illustration: This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types.)
 </div>
