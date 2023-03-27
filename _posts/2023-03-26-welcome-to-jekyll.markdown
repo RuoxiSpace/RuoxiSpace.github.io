@@ -20,10 +20,9 @@ Through the above conditions, we screened out 5 types of crimes as follows:
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
 <small>(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)</small>
-  <br>
 </div>
 
-
+<br>
 Based on the sharp decline in the Dow Jones Industrial Average starting in December of 2007 as a sign of the onset of the financial crisis, we plotted the monthly growth rates of the five crimes relative to December 2007 crime numbers.
 
 Interestingly, the first three types are all related to "acquisition of property", while the latter two are related to crimes fueled by alcohol and drug abuse, which might be driven by psychological desire. In the property acquisition category, the growth rate of ‘PROSTITUTION’ is the most obvious, reaching a growth rate of 100% in the highest period. Coincidentally, this month was the period when the economic crisis broke out, and as time went by, the growth rate gradually slowed down.
@@ -35,10 +34,9 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
 <small>(Illustration: Distribution of amount of "ROBBERY" during 2006-2008)</small>
-  <br>
 </div>
 
-
+<br>
 Robbery and burglary are crimes of opportunity, meaning that they may be more likely to occur when criminals perceive a weakness in security or an easy target. During the financial crisis, businesses and individuals may have been more vulnerable to crime due to reduced security measures or other factors.
 
 We already know that through time series analysis, under the financial crisis, the number of "ROBBERY" increased by about 25%, but the number of "BURGLARY" decreased by about 20% during the same period. This caught our attention. In order to further explore, we plotted the regional distribution of the average number of crimes committed by "ROBBERY" and "BURGLARY" before and after the financial crisis, and found that there is a "migration phenomenon" in the crime locations! Both changes occurred in the southeast of San Francisco, with one exception, the "NORTHERN" district, which may be tied to the change in wealth of the area.
