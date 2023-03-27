@@ -31,7 +31,7 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 
 2、Geographic migration of crimes of ‘opportunity’
 
-<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png" alt="Image" style="display:block;margin:auto;" />
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.jpg" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
 <small>(Illustration: Distribution of amount of "ROBBERY" during 2006-2008)</small>
 </div>
