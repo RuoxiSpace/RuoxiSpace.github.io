@@ -103,4 +103,4 @@ This is a 24-hour crime probability map for five crime categories potentially af
 
 
 # Map
- <iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/my_map.html" width="100%" height="500"></iframe>
+[Click here to view the HTML file]([path/to/html/file.html](https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/my_map.html))
