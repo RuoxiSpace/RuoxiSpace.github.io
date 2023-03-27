@@ -5,7 +5,7 @@ date:   2023-03-26 18:33:41 +0200
 categories: jekyll update
 ---
 
-<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/Pasted%20Graphic.jpg" alt="Image" style="display:block;margin:auto;" />
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/below_head.jpg" alt="Image" style="display:block;margin:auto;" />
 
 1、Time series analysis
 
@@ -16,7 +16,7 @@ By observing the statistics of crime types in 2003-2010, we found some interesti
 Through the above conditions, we screened out 5 types of crimes as follows:
 ['PROSTITUTION', 'ROBBERY', 'BURGLARY', 'DRUNKENNESS', 'DRUG/NARCOTIC']
 
-<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.jpg" alt="Image" style="display:block;margin:auto;" />
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.png" alt="Image" style="display:block;margin:auto;" />
 
 <div style="text-align:center">
 (Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)
