@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How did the financial crisis affected crime?"
+title:  "How did the financial crisis affect crime?"
 date:   2023-03-26 18:33:41 +0200
 categories: jekyll update
 ---
