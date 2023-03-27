@@ -20,6 +20,7 @@ Through the above conditions, we screened out 5 types of crimes as follows:
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
 (Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)<br>
+  
 </div>
 
 
@@ -34,6 +35,7 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
 (Illustration: Distribution of amount of "ROBBERY" during 2006-2008)<br>
+  
 </div>
 
 
