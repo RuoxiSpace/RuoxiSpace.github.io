@@ -24,7 +24,7 @@ defaults:
       path: ""
     values:
       http_headers:
-        Content-Security-Policy: "frame-src 'self' https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/my_map.html"
+        Content-Security-Policy: "frame-src 'self' https://*"
 
 
 title: Assignment 2
