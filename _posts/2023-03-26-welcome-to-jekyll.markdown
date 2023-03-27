@@ -99,11 +99,3 @@ This is a 24-hour crime probability map for five crime categories potentially af
   
 </html>
 
-
-
-
-# Map
-[Click here to view the HTML file](image/my_map.html)
-
-<iframe src="[path/to/html/file.html](image/my_map.html)" width="100%" height="500"></iframe>
-
