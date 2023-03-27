@@ -14,7 +14,7 @@ By observing the statistics of crime types in 2003-2010, we found some interesti
 (1) peaks around year 2008;   
 (2) is generally stable from 2003 to 2010 but have a significant increase/decrease before and after the economic crisis.
 
-Through the above conditions, we screened out 5 types of crimes as follows:
+Through the above conditions, we screened out 5 types of crimes as follows:   
 ['PROSTITUTION', 'ROBBERY', 'BURGLARY', 'DRUNKENNESS', 'DRUG/NARCOTIC']
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.png" alt="Image" style="display:block;margin:auto;" />
