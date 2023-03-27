@@ -19,9 +19,8 @@ Through the above conditions, we screened out 5 types of crimes as follows:
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
-(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)
+(Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)<br>
 </div>
-
 
 
 Based on the sharp decline in the Dow Jones Industrial Average starting in December of 2007 as a sign of the onset of the financial crisis, we plotted the monthly growth rates of the five crimes relative to December 2007 crime numbers.
@@ -34,9 +33,8 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png" alt="Image" style="display:block;margin:auto;" />
 <div style="text-align:center">
-(Illustration: Distribution of amount of "ROBBERY" during 2006-2008)
+(Illustration: Distribution of amount of "ROBBERY" during 2006-2008)<br>
 </div>
-
 
 
 Robbery and burglary are crimes of opportunity, meaning that they may be more likely to occur when criminals perceive a weakness in security or an easy target. During the financial crisis, businesses and individuals may have been more vulnerable to crime due to reduced security measures or other factors.
