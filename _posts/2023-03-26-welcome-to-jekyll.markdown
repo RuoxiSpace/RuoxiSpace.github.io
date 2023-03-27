@@ -29,7 +29,7 @@ We already know that in the time series analysis, the amount of "ROBBERY" has in
 
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png)
 
-<iframe src="(https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/my_map.html)" width="100%" height="500"></iframe>
+<embed type="text/html" src="image/my_map.html" width="800" height="600">
 
 
 
