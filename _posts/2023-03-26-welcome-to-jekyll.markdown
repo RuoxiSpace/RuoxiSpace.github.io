@@ -26,6 +26,7 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 2、Geographic migration of crimes of ‘opportunity’
 
 ![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png)
+
 (Illustration: Distribution of amount of "ROBBERY" during 2006-2008)
 
 Robbery and burglary are crimes of opportunity, meaning that they may be more likely to occur when criminals perceive a weakness in security or an easy target. During the financial crisis, businesses and individuals may have been more vulnerable to crime due to reduced security measures or other factors.
