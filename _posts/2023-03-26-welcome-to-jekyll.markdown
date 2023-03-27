@@ -35,14 +35,69 @@ We already know that in the time series analysis, the amount of "ROBBERY" has in
 
 This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types. "ROBBERY" and "BURGLARY" not only generate crime migration phenomena in space, but also "complement each other" in the time distribution of a day. This means that before and after the financial crisis, potential criminals will choose a more suitable place and time to commit crimes according to the current situation. Explore the comparison further. Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRUNKNESS", and "DRUG/NARCOTIC" from 2003 to 2018, the 24-hour distribution during the financial crisis also followed this distribution trend, which shows that even these three categories Crime always tends to increase during the period, but does not affect the distribution of crimes during the day.
 
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js" integrity="sha384-XypntL49z55iwGVUW4qsEu83zKL3XEcz0MjuGOQ9SlaaQ68X/g+k1FcioZi7oQAc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+   
+  </head>
+  
+  <body>
+              <div class="bk-root" id="bddfd34c-33d6-4a1d-8b64-446ce23ba8c8" data-root-id="2672"></div>
+
+        <script type="application/json" id="2986">
+          {"95b92118-d461-49dd-b47e-065a63cc5b05":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"2683"}],"center":[{"id":"2686"},{"id":"2690"}],"height":400,"left":[{"id":"2687"}],"renderers":[{"id":"2709"},{"id":"2715"},{"id":"2721"},{"id":"2727"},{"id":"2733"}],"right":[{"id":"2735"}],"title":{"id":"2673"},"toolbar":{"id":"2698"},"width":1000,"x_range":{"id":"2675"},"x_scale":{"id":"2679"},"y_range":{"id":"2677"},"y_scale":{"id":"2681"}},"id":"2672","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":{"value":0.08},"fill_color":{"value":"#aec7e8"},"line_alpha":{"value":0.08},"line_color":{"value":"#aec7e8"},"top":{"field":"ROBBERY"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2714","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.08},"fill_color":{"value":"#ffbb78"},"line_alpha":{"value":0.08},"line_color":{"value":"#ffbb78"},"top":{"field":"DRUNKENNESS"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2726","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.08},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.08},"line_color":{"value":"#1f77b4"},"top":{"field":"PROSTITUTION"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2708","type":"VBar"},{"attributes":{},"id":"2688","type":"BasicTicker"},{"attributes":{"data_source":{"id":"2671"},"glyph":{"id":"2706"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"2708"},"nonselection_glyph":{"id":"2707"},"view":{"id":"2710"}},"id":"2709","type":"GlyphRenderer"},{"attributes":{"label":{"value":"ROBBERY"},"renderers":[{"id":"2715"}]},"id":"2737","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#aec7e8"},"line_alpha":{"value":0.1},"line_color":{"value":"#aec7e8"},"top":{"field":"ROBBERY"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2713","type":"VBar"},{"attributes":{"fill_color":{"value":"#ffbb78"},"line_color":{"value":"#ffbb78"},"top":{"field":"DRUNKENNESS"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2724","type":"VBar"},{"attributes":{"text":"Crimes By Hour"},"id":"2673","type":"Title"},{"attributes":{"source":{"id":"2671"}},"id":"2716","type":"CDSView"},{"attributes":{"data_source":{"id":"2671"},"glyph":{"id":"2724"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"2726"},"nonselection_glyph":{"id":"2725"},"view":{"id":"2728"}},"id":"2727","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"2671"},"glyph":{"id":"2718"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"2720"},"nonselection_glyph":{"id":"2719"},"view":{"id":"2722"}},"id":"2721","type":"GlyphRenderer"},{"attributes":{},"id":"2827","type":"AllLabels"},{"attributes":{},"id":"2833","type":"UnionRenderers"},{"attributes":{"axis_label":"Hour of The Day","formatter":{"id":"2828"},"major_label_policy":{"id":"2827"},"ticker":{"id":"2684"}},"id":"2683","type":"LinearAxis"},{"attributes":{"source":{"id":"2671"}},"id":"2728","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.1},"line_color":{"value":"#2ca02c"},"top":{"field":"DRUG/NARCOTIC"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2731","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"2697","type":"BoxAnnotation"},{"attributes":{"axis":{"id":"2683"},"ticker":null},"id":"2686","type":"Grid"},{"attributes":{},"id":"2679","type":"LinearScale"},{"attributes":{},"id":"2828","type":"BasicTickFormatter"},{"attributes":{},"id":"2831","type":"BasicTickFormatter"},{"attributes":{"fill_color":{"value":"#2ca02c"},"line_color":{"value":"#2ca02c"},"top":{"field":"DRUG/NARCOTIC"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2730","type":"VBar"},{"attributes":{"data":{"BURGLARY":{"__ndarray__":"juBGcCO4oT+toFZQK6iVP4Vtj4OUDpc/6lMoXcfhlj8IR+qJWyuUP85TGl3AYZM/THq/VvlElj8werFW8sSiP/Dgd/A7+K0/0ZBoSDQkqj8dx/TJYMumP3DthEOPbqQ/LgRKNdhNrz87Krcu9TCkP+LzIy3FyaU//9MyncyBqT/YEGwINgSrP5joS/Ql+rI/LIKvWvFGsj+hbZ2Dm46qP/HTKx3Jwac/rhBXiCvEpT+i8FB4KDykP8ojGEW/1aI/","dtype":"float64","order":"little","shape":[24]},"DRUG/NARCOTIC":{"__ndarray__":"CpSH4o9QnD9KEEfhd3qTP53y1w4/6o4/mNvPrtfEgT8hnOdJtV14P+Wi1c6zKGs/j7zB82jSij/foP10aiWcP/d34yHxoqE/6HJHwbkapD+JVHJ3XsmpP0PZcR8MAak/cIAjy7awqT9SEwvoZf+xP+Ykl6X1m7U/sWJa7F/gsj/Vefhg+cWzP/Kc49UJ37E/i9OcTcHXrj+5SdQ+zfeoP8TnDNCe+KQ/psQhW47fpj9qGNROrKeoP25OvWNzn6M/","dtype":"float64","order":"little","shape":[24]},"DRUNKENNESS":{"__ndarray__":"Fs0kAhQQtj+eGqNHR5m2P411nnEkVLE/fu6xfDanmD+Ed1sArgKJP+cZR0IVcW8/FcMct1fdgT95ZQj5vkuIP2JBYurg3YY/TB282wJwhT+Pia4HnbmJP124uGZpgpY/zGz3r7+nnT+fJKuSA8yaP8xs96+/p50/DzpzM+CBoT/7Kd26enmoP708jMebWLA/SxO0kEY9sT9UunX18jCuP2reGwTRnq8/yE7fzooPsT8FMih3rf20P2fAAyOcBrM/","dtype":"float64","order":"little","shape":[24]},"Hour":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],"PROSTITUTION":{"__ndarray__":"FZOcq2kssT/WNJYI6eitP5Rhbz/I+qg/5kfm3fFnoj9If4qzwkukP7qdZ0pb/qc/s8XsS3jwpT8rUlBrFAmVP7Mv4cFXmIw/jfPotsSUjT9Be/igno2PP7Mv4cFXmIw/D48KmUVunD8Sxk1dRyGaP+ZH5t3xZ5I/nQY5jM0Tgj/Za9nM6puLPziYUfL6fKI/1mCtHCqZsD8iQ5KoL0i1P8wl2EUEKK4/Gf/ZKlszsj/cbSLW/Pq1P5eYsgPKrbY/","dtype":"float64","order":"little","shape":[24]},"ROBBERY":{"__ndarray__":"i/pMqOVGqz9IxDr/Ls2rP0s6HEZLEK4/+z/B8+oDoT9jTxXsvoGVP+i7OT4sdZQ/Sw3VO76rkz/O1Q20GB2RP8RY2TUrtJE/WdLgbdEYlj+U05VMwC2ZP+/v03+K/5s/SMX9h5inoD+CIseMdDqiPxRU9xD1mqM/F27EMSRgpz/APUmMkhSpPxkSsAs34qg/zF5p5JL/qT+X7WJt7/KsP+8HHFJvebA/P+y0473Asj+udfWCy4GyPz1fTlMm3rA/","dtype":"float64","order":"little","shape":[24]},"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23]},"selected":{"id":"2834"},"selection_policy":{"id":"2833"}},"id":"2671","type":"ColumnDataSource"},{"attributes":{},"id":"2691","type":"PanTool"},{"attributes":{},"id":"2677","type":"DataRange1d"},{"attributes":{"data_source":{"id":"2671"},"glyph":{"id":"2712"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"2714"},"nonselection_glyph":{"id":"2713"},"view":{"id":"2716"}},"id":"2715","type":"GlyphRenderer"},{"attributes":{"fill_color":{"value":"#aec7e8"},"line_color":{"value":"#aec7e8"},"top":{"field":"ROBBERY"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2712","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.1},"line_color":{"value":"#ff7f0e"},"top":{"field":"BURGLARY"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2719","type":"VBar"},{"attributes":{"axis_label":"Relative Frequency","formatter":{"id":"2831"},"major_label_policy":{"id":"2830"},"ticker":{"id":"2688"}},"id":"2687","type":"LinearAxis"},{"attributes":{"label":{"value":"PROSTITUTION"},"renderers":[{"id":"2709"}]},"id":"2736","type":"LegendItem"},{"attributes":{"source":{"id":"2671"}},"id":"2722","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.08},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.08},"line_color":{"value":"#2ca02c"},"top":{"field":"DRUG/NARCOTIC"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2732","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ffbb78"},"line_alpha":{"value":0.1},"line_color":{"value":"#ffbb78"},"top":{"field":"DRUNKENNESS"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2725","type":"VBar"},{"attributes":{"overlay":{"id":"2697"}},"id":"2693","type":"BoxZoomTool"},{"attributes":{},"id":"2696","type":"HelpTool"},{"attributes":{},"id":"2692","type":"WheelZoomTool"},{"attributes":{"click_policy":"mute","items":[{"id":"2736"},{"id":"2737"},{"id":"2738"},{"id":"2739"},{"id":"2740"}],"location":[0,-30]},"id":"2735","type":"Legend"},{"attributes":{},"id":"2695","type":"ResetTool"},{"attributes":{"label":{"value":"DRUNKENNESS"},"renderers":[{"id":"2727"}]},"id":"2739","type":"LegendItem"},{"attributes":{"label":{"value":"DRUG/NARCOTIC"},"renderers":[{"id":"2733"}]},"id":"2740","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.08},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.08},"line_color":{"value":"#ff7f0e"},"top":{"field":"BURGLARY"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2720","type":"VBar"},{"attributes":{"source":{"id":"2671"}},"id":"2710","type":"CDSView"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"PROSTITUTION"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2706","type":"VBar"},{"attributes":{},"id":"2834","type":"Selection"},{"attributes":{},"id":"2681","type":"LinearScale"},{"attributes":{"source":{"id":"2671"}},"id":"2734","type":"CDSView"},{"attributes":{},"id":"2675","type":"DataRange1d"},{"attributes":{"fill_color":{"value":"#ff7f0e"},"line_color":{"value":"#ff7f0e"},"top":{"field":"BURGLARY"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2718","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"PROSTITUTION"},"width":{"value":2},"x":{"field":"Hour"}},"id":"2707","type":"VBar"},{"attributes":{"axis":{"id":"2687"},"dimension":1,"ticker":null},"id":"2690","type":"Grid"},{"attributes":{"data_source":{"id":"2671"},"glyph":{"id":"2730"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"2732"},"nonselection_glyph":{"id":"2731"},"view":{"id":"2734"}},"id":"2733","type":"GlyphRenderer"},{"attributes":{},"id":"2694","type":"SaveTool"},{"attributes":{"label":{"value":"BURGLARY"},"renderers":[{"id":"2721"}]},"id":"2738","type":"LegendItem"},{"attributes":{"active_multi":null,"tools":[{"id":"2691"},{"id":"2692"},{"id":"2693"},{"id":"2694"},{"id":"2695"},{"id":"2696"}]},"id":"2698","type":"Toolbar"},{"attributes":{},"id":"2830","type":"AllLabels"},{"attributes":{},"id":"2684","type":"BasicTicker"}],"root_ids":["2672"]},"title":"Bokeh Application","version":"2.3.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2986').textContent;
+                  var render_items = [{"docid":"95b92118-d461-49dd-b47e-065a63cc5b05","root_ids":["2672"],"roots":{"2672":"bddfd34c-33d6-4a1d-8b64-446ce23ba8c8"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
 
 
-# Interactive graph
- <iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/image/interactive graph.html" width="100%" height="500"></iframe>
-
-
-# Robbery distribution
- <iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/image/robbery_distribution.html" width="100%" height="500"></iframe>
 
 
 # Map
