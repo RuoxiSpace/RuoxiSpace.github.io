@@ -31,6 +31,7 @@ We already know that in the time series analysis, the amount of "ROBBERY" has in
 
 <embed type="text/html" src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/robbery_distribution.html" width="800" height="600">
 
+<embed type="text/html" src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/my_map.html" width="800" height="600">
 
 
 3、Crime relative frequency by hour1!!!
