@@ -17,7 +17,7 @@ Through the above conditions, we screened out 5 types of crimes as follows:
 
 Based on the sharp decline in the Dow Jones Industrial Average starting in December of 2007 as a sign of the onset of the financial crisis, we plotted the monthly growth rates of the five crimes relative to December 2007 crime numbers:
 
-!(https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/figure_2.png)
+!(https://github.com/RuoxiSpace/RuoxiSpace.github.io/raw/main/image/figure_2.png)
 
 Interestingly, the first three types are all related to "acquisition of property", while the latter two are related to crimes fueled by alcohol and drug abuse, which might be driven by psychological desire. In the property acquisition category, the growth rate of ‘PROSTITUTION’is the most obvious, reaching a growth rate of 100% in the highest period. Coincidentally, this month was the period when the economic crisis broke out, and as time went by, the growth rate gradually slowed down.
 
