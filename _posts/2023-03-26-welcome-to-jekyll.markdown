@@ -4,8 +4,6 @@ title:  "How did the financial crisis affect crime?"
 date:   2023-03-26 18:33:41 +0200
 categories: jekyll update
 ---
-![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/Pasted%20Graphic.jpg)
-
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/Pasted%20Graphic.jpg" alt="Image" style="display:block;margin:auto;" />
 
@@ -18,7 +16,8 @@ By observing the statistics of crime types in 2003-2010, we found some interesti
 Through the above conditions, we screened out 5 types of crimes as follows:
 ['PROSTITUTION', 'ROBBERY', 'BURGLARY', 'DRUNKENNESS', 'DRUG/NARCOTIC']
 
-![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.jpg)
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_6.jpg" alt="Image" style="display:block;margin:auto;" />
+
 (Illustration: Annual Quantity Statistics and Monthly Change Curves of the Five Crime Types during 2003-2010)
 
 Based on the sharp decline in the Dow Jones Industrial Average starting in December of 2007 as a sign of the onset of the financial crisis, we plotted the monthly growth rates of the five crimes relative to December 2007 crime numbers.
@@ -29,7 +28,7 @@ For "DRUNKNESS" and "DRUG/NARCOTIC", in the article “Cultural Stereotypes Abou
 
 2、Geographic migration of crimes of ‘opportunity’
 
-![](https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png)
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.png" alt="Image" style="display:block;margin:auto;" />
 
 (Illustration: Distribution of amount of "ROBBERY" during 2006-2008)
 
