@@ -27,9 +27,9 @@
 #         Content-Security-Policy: "frame-src 'self' https://*"
 
 
-title: Assignment of Social Data Analysis 2023
+title: Assignment
 description: >- # this means to ignore newlines until "baseurl:"
-  Create data-story based on the work we have done in class so far.
+  This website is used to showcase the assignments we completed in Social Data Analysis 2023 -- Creating data-story based on the work we have done in class.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
