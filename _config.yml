@@ -29,7 +29,7 @@
 
 title: Assignment
 description: >- # this means to ignore newlines until "baseurl:"
-  This website is used to showcase the assignments we completed in Social Data Analysis 2023 -- Creating data-storys based on the work we have done in class.
+  This website is used to showcase the assignments we completed in Social Data Analysis 2023 -- Creating data-storys based on the work we have done in class. See more about jekyll on github or twitter given there. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
