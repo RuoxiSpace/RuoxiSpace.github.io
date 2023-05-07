@@ -1,8 +1,6 @@
 ---
-layout: post
-title:  "Magazine"
-date:   2023-05-05 13:55:41 +0200
-categories: jekyll update
+title: My Flipping Page
+layout: page-flip
 ---
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/below_head.jpg" alt="Image" style="display:block;margin:auto;" />
