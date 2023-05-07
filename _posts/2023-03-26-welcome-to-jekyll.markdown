@@ -120,3 +120,11 @@ Unsurprisingly, after comparing the 24-hour distribution of "PROSTITUTION", "DRU
 <div style="text-align:center">
 <small>(Illustration: This is a 24-hour crime probability map for five crime categories potentially affected by the financial crisis between 2006 to 2009. You can see their trends within a day by switching types.)</small>
 </div>
+
+---
+layout: post
+title:  "Magazine"
+date:   2023-05-07 18:33:41 +0200
+categories: jekyll update
+---
+<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/figure_3.jpg" alt="Image" style="display:block;margin:auto;" />
