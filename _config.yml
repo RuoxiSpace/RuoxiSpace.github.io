@@ -27,7 +27,7 @@
 #         Content-Security-Policy: "frame-src 'self' https://*"
 
 
-title: Assignment 2
+title: Assignment
 email: XXXXXXX@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   Create a short data-story based on the work we have done in class so far - Exploring the causes of crime
