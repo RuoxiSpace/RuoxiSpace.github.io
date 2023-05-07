@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the assignment of our group.
+We are 3 students of DTU :)
