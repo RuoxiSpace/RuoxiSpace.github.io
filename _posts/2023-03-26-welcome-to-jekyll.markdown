@@ -4,11 +4,6 @@ title:  "How did the financial crisis affect crime?"
 date:   2023-03-26 18:33:41 +0200
 categories: jekyll update
 ---
-layout: post
-title:  "Magazine"
-date:   2023-03-26 18:33:41 +0200
-categories: jekyll update
----
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/below_head.jpg" alt="Image" style="display:block;margin:auto;" />
 
