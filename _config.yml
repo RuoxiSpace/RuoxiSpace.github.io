@@ -32,6 +32,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Create data-story based on the work we have done in class so far.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: If you want to know more about jekyll:
 twitter_username: jekyllrb
 github_username:  jekyll
 
