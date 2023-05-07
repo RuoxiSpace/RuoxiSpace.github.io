@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the assignment of our group work.
+This is the assignment of our group.
