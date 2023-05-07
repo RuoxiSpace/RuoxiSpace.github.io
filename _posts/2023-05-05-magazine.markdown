@@ -12,4 +12,4 @@ categories: jekyll update
  <img src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/my_map.html" width="400" height="300">
 </markdown>
 
-https://drive.google.com/file/d/198yro1kC8PhVz73gySchxvUVd5sMGDZ2/view?usp=sharing
+<iframe src="https://drive.google.com/file/d/198yro1kC8PhVz73gySchxvUVd5sMGDZ2/preview" width="400" height="500"></iframe>
