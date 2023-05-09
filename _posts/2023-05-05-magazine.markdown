@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "？"
+date:   2023-05-06 10:33:41 +0200
+categories: jekyll update
+---
+
+<!-- <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/below_head.jpg" alt="Image" style="display:block;margin:auto;" /> -->
+
+<!-- <iframe src="https://github.com/RuoxiSpace/html_pics/blob/490287e3773a93ee956fb3f1f24d98081d93a501/cp_map.html" width="100%" height="500"></iframe>
+ -->
+ 
+<!-- <iframe src="/cp_map.html" width="100%" height="500"></iframe>
+ -->
+ 
+<img src="https://github.com/RuoxiSpace/html_pics/blob/490287e3773a93ee956fb3f1f24d98081d93a501/cp_map.html">
+
+<!-- <iframe src="https://drive.google.com/file/d/198yro1kC8PhVz73gySchxvUVd5sMGDZ2/preview" width="100%" height="500"></iframe>
+ -->
