@@ -18,4 +18,4 @@ categories: jekyll update
 <!-- <iframe src="https://drive.google.com/file/d/198yro1kC8PhVz73gySchxvUVd5sMGDZ2/preview" width="100%" height="500"></iframe>
  -->
 
-{% include cp_map.html %}
+{% include piechart.png %}
