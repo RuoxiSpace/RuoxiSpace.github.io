@@ -27,11 +27,7 @@
 #         Content-Security-Policy: "frame-src 'self' https://*"
 
 
-<<<<<<< HEAD
-title: My Jekyll site!
-=======
 title: My jekyll site!
->>>>>>> a2863132d1f241431a292de81c97f11d560924ef
 description: >- # this means to ignore newlines until "baseurl:"
   This is a jekyll static website. See more about jekyll on github or twitter given there. 
 baseurl: "" # the subpath of your site, e.g. /blog
