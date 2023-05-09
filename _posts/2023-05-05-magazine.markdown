@@ -5,8 +5,9 @@ date:   2023-05-06 10:33:41 +0200
 categories: jekyll update
 ---
 
-<img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/below_head.jpg" alt="Image" style="display:block;margin:auto;" />
+<!-- <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/below_head.jpg" alt="Image" style="display:block;margin:auto;" /> -->
 
 <iframe src="cp_map.html" width="100%" height="500"></iframe>
 
-<iframe src="https://drive.google.com/file/d/198yro1kC8PhVz73gySchxvUVd5sMGDZ2/preview" width="100%" height="500"></iframe>
+<!-- <iframe src="https://drive.google.com/file/d/198yro1kC8PhVz73gySchxvUVd5sMGDZ2/preview" width="100%" height="500"></iframe>
+ -->
