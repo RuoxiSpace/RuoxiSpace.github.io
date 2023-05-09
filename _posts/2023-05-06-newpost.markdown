@@ -14,4 +14,4 @@ categories: jekyll update
 
 <img src="https://raw.githubusercontent.com/RuoxiSpace/RuoxiSpace.github.io/main/image/linechart.png" alt="Image" style="display:block;margin:auto;" />
 
-<iframe src="image/map.html" height="600px" width="100%" style="border:none;" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="image/cp_map.html" height="600px" width="100%" style="border:none;" allowfullscreen="allowfullscreen"></iframe>
