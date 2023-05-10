@@ -13,31 +13,47 @@
         font-family: Arial, sans-serif;
         line-height: 1.5;
         color: #333;
+        background-color: #f7f7f7;
       }
       /* 页面布局 */
       .container {
-        max-width: 800px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
       }
       header {
-        background: url('https://picsum.photos/800/400') center/cover no-repeat;
+        background: url('https://picsum.photos/1200/800') center/cover no-repeat;
         padding: 80px 0;
         text-align: center;
         color: #fff;
       }
       h1 {
-        font-size: 48px;
+        font-size: 80px;
         margin-bottom: 20px;
         text-shadow: 1px 1px #000;
       }
       h2 {
-        font-size: 32px;
+        font-size: 48px;
         margin-bottom: 10px;
+        text-align: center;
+        margin-top: 80px;
+      }
+      .subheading {
+        font-size: 24px;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 40px;
       }
       /* 文章样式 */
       .article {
         margin: 40px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
       }
       .article img {
         display: block;
@@ -75,26 +91,20 @@
     <header>
       <h1>杂志风排版</h1>
       <h2>用 HTML 和 CSS 制作</h2>
+      <div class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
     </header>
     <div class="container">
       <div class="article">
-        <img src="https://picsum.photos/800/1074" alt="文章图片">
-        <h2>文章标题</h2>
-        <p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
-        <p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
-        <div class="caption">图片来源：Lorem Picsum</div>
-      </div>
-      <div class="article">
-        <h2>另一篇文章标题</h2>
-        <p>另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
-        <p>另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
-        <img src="https://picsum.photos/800/534" alt="另一篇文章图片">
-        <div class="caption">图片来源：Lorem Picsum</div>
+        <img src="https://picsum.photos/600/400" alt="文章图片">
+        <div class="article-content">
+          <h2>文章标题</h2>
+          <p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容
       </div>
     </div>
     <footer>
-      <p>版权所有 &copy; 2023 杂志风排版</p>
-      <p>联系我们：magazine@magazine.com</p>
+      <p>Copyright © 2023 
+        <a href="#">Magazine</a>
+      </p>
     </footer>
   </body>
 </html>
