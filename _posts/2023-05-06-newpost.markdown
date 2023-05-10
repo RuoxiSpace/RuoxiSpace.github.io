@@ -9,4 +9,4 @@ date:   2023-05-06 18:33:41 +0200
  -->
 
 
-<iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/image/map.html" height="600px" width="100%" style="border:none;" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://github.com/RuoxiSpace/RuoxiSpace.github.io/blob/main/map.html" height="600px" width="100%" style="border:none;" allowfullscreen="allowfullscreen"></iframe>
