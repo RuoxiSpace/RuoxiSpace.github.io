@@ -13,47 +13,42 @@
         font-family: Arial, sans-serif;
         line-height: 1.5;
         color: #333;
-        background-color: #f7f7f7;
+        background-color: #f6f6f6;
       }
       /* 页面布局 */
       .container {
-        max-width: 1200px;
+        max-width: 800px;
         margin: 0 auto;
         padding: 20px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
       header {
-        background: url('https://picsum.photos/1200/800') center/cover no-repeat;
+        background: url('https://picsum.photos/800/400') center/cover no-repeat;
         padding: 80px 0;
         text-align: center;
         color: #fff;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
       h1 {
-        font-size: 80px;
+        font-size: 48px;
         margin-bottom: 20px;
         text-shadow: 1px 1px #000;
       }
       h2 {
-        font-size: 48px;
+        font-size: 32px;
         margin-bottom: 10px;
-        text-align: center;
-        margin-top: 80px;
-      }
-      .subheading {
-        font-size: 24px;
-        font-style: italic;
-        text-align: center;
-        margin-bottom: 40px;
       }
       /* 文章样式 */
       .article {
-        margin: 40px 0;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        margin-bottom: 50px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
       .article img {
         display: block;
@@ -65,6 +60,16 @@
         text-align: center;
         margin-top: -10px;
         margin-bottom: 20px;
+      }
+      p {
+        text-indent: 2em;
+        margin-bottom: 20px;
+      }
+      .text-bg {
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
       }
       /* 链接样式 */
       a {
@@ -84,27 +89,87 @@
         padding: 20px 0;
         background-color: #333;
         color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2;
+        px 4px rgba(0, 0, 0, 0.1);
       }
-    </style>
+      footer p {
+        margin-bottom: 10px;
+      }
+      footer a {
+        color: #fff;
+      border-bottom: none;
+      }
+      /* 响应式布局 */
+        @media (max-width: 768px) {
+        header {
+          padding: 60px 0;
+        }
+        h1 {
+          font-size: 36px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        .article {
+          padding: 10px;
+        }
+        .article img {
+          margin-bottom: 10px;
+        }
+        .caption {
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+      }
+</style>
+
   </head>
   <body>
-    <header>
-      <h1>杂志风排版</h1>
-      <h2>用 HTML 和 CSS 制作</h2>
-      <div class="subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-    </header>
     <div class="container">
-      <div class="article">
-        <img src="https://picsum.photos/600/400" alt="文章图片">
-        <div class="article-content">
-          <h2>文章标题</h2>
-          <p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容
-      </div>
+      <header>
+        <h1>Magazine</h1>
+        <p>A beautiful and responsive web template for your magazine</p>
+        <a href="#articles">View Articles</a>
+      </header>
+      <main>
+        <section id="articles">
+          <h2>Latest Articles</h2>
+          <div class="article">
+            <img src="https://picsum.photos/800/400" alt="Article Image" />
+            <h3>Article Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              ut elit suscipit, eleifend elit in, convallis elit. Nam id
+              volutpat felis. Praesent et ipsum euismod, tempor lorem non,
+              fermentum neque.
+            </p>
+            <div class="caption">Photo by John Doe</div>
+            <a href="#">Read More</a>
+          </div>
+          <div class="article">
+            <img src="https://picsum.photos/800/400" alt="Article Image" />
+            <h3>Article Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              ut elit suscipit, eleifend elit in, convallis elit. Nam id
+              volutpat felis. Praesent et ipsum euismod, tempor lorem non,
+              fermentum neque.
+            </p>
+            <div class="caption">Photo by John Doe</div>
+            <a href="#">Read More</a>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright © 2023 Magazine 
+        <br />
+        All rights reserved.</p>
+      </footer>
     </div>
-    <footer>
-      <p>Copyright © 2023 
-        <a href="#">Magazine</a>
-      </p>
-    </footer>
   </body>
 </html>
