@@ -16,48 +16,78 @@
         color: #333;
       }
       /* 设置页面布局 */
-      header, footer {
+      header {
+        height: 200px;
+        background-image: url("https://picsum.photos/id/1074/1920/1080");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      .title {
+        font-size: 64px;
+        font-weight: bold;
+        margin: 20px 0;
+        text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      .subtitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 20px 0;
+        text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+      footer {
         background-color: #333;
         color: #fff;
         text-align: center;
         padding: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
       }
       .container {
         max-width: 960px;
         margin: 0 auto;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: stretch;
+        flex-direction: column;
+        align-items: center;
         padding: 40px 20px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         background-color: #fff;
       }
       /* 设置文章样式 */
       .article {
-        flex-basis: calc(33.33% - 20px);
+        width: 100%;
         margin-bottom: 40px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       }
       .article img {
         max-width: 100%;
         height: auto;
-      }
-      .article h2 {
-        font-size: 24px;
-        margin-top: 0;
         margin-bottom: 10px;
       }
+      .article h2 {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+      }
       .article p {
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 0;
         margin-bottom: 20px;
         line-height: 1.5;
+        text-align: justify;
       }
       .article .caption {
         font-style: italic;
-        font-size: 14px;
+        font-size: 16px;
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
       /* 设置链接样式 */
       a {
@@ -73,24 +103,24 @@
   </head>
   <body>
     <header>
-      <h1>杂志标题</h1>
-      <h2>副标题</h2>
+      <div class="title">杂志标题</div>
+      <div class="subtitle">副标题</div>
     </header>
     <div class="container">
       <div class="article">
-        <img src="https://picsum.photos/id/10/800/400" alt="文章图片">
-        <div class="caption">图片来源：Lorem Picsum</div>
-        <h2>文章标题</h2>
-        <p>这里是文章的内容，可以包含多段文字和图片等。这里是一个 <a href="#">链接示例</a>，点击它可以跳转到其他页面。</p>
-      </div>
-      <div class="article">
-        <img src="https://picsum.photos/id/20/800/400" alt="文章图片">
-        <div class="caption">图片来源：Lorem Picsum</div>
-        <h2>文章标题</h2>
-        <p>这里是文章的内容，可以包含多段文字和图片等。这里是一个 <a href="#">链接示例</a>，点击它可以跳转到其他页面。</p>
-      </div>
-    <footer>
-      © 2023 杂志标题
-    </footer>
+        <img src="https://picsum.photos/id/1074/800" alt="文章图片">
+<h2>文章标题</h2>
+<p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
+<p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
+<div class="caption">图片来源：Lorem Picsum</div>
+</div>
+<div class="article">
+<h2>另一篇文章标题</h2>
+<p>这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。</p>
+<p>这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。</p>
+</div>
+</div>
+<footer>版权信息</footer>
+
   </body>
 </html>
