@@ -1,126 +1,100 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>杂志标题</title>
+    <title>杂志风排版</title>
     <style>
-      /* 设置全局样式 */
+      /* 全局样式 */
       * {
         box-sizing: border-box;
-      }
-      body {
-        font-family: 'Helvetica Neue', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f5f5f5;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
         color: #333;
       }
-      /* 设置页面布局 */
-      header {
-        height: 200px;
-        background-image: url("https://picsum.photos/id/1074/1920/1080");
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-      }
-      .title {
-        font-size: 64px;
-        font-weight: bold;
-        margin: 20px 0;
-        text-shadow: 0 0 10px rgba(0,0,0,0.5);
-      }
-      .subtitle {
-        font-size: 32px;
-        font-weight: bold;
-        margin: 20px 0;
-        text-shadow: 0 0 10px rgba(0,0,0,0.5);
-      }
-      footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-      }
+      /* 页面布局 */
       .container {
-        max-width: 960px;
+        max-width: 800px;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 40px 20px;
-        background-color: #fff;
-      }
-      /* 设置文章样式 */
-      .article {
-        width: 100%;
-        margin-bottom: 40px;
         padding: 20px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       }
-      .article img {
-        max-width: 100%;
-        height: auto;
+      header {
+        background: url('https://picsum.photos/800/400') center/cover no-repeat;
+        padding: 80px 0;
+        text-align: center;
+        color: #fff;
+      }
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px #000;
+      }
+      h2 {
+        font-size: 32px;
         margin-bottom: 10px;
       }
-      .article h2 {
-        font-size: 32px;
-        margin-top: 0;
-        margin-bottom: 20px;
-        text-align: center;
+      /* 文章样式 */
+      .article {
+        margin: 40px 0;
       }
-      .article p {
-        font-size: 18px;
-        margin-top: 0;
+      .article img {
+        display: block;
+        width: 100%;
         margin-bottom: 20px;
-        line-height: 1.5;
-        text-align: justify;
       }
-      .article .caption {
+      .caption {
         font-style: italic;
-        font-size: 16px;
         text-align: center;
+        margin-top: -10px;
         margin-bottom: 20px;
       }
-      /* 设置链接样式 */
+      /* 链接样式 */
       a {
         color: #333;
         text-decoration: none;
         border-bottom: 2px solid #333;
-        transition: border-bottom-color 0.2s ease-in-out;
+        transition: all 0.3s;
       }
       a:hover {
-        border-bottom-color: #fff;
+        color: #fff;
+        background-color: #333;
+      }
+      /* 页脚 */
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px 0;
+        background-color: #333;
+        color: #fff;
       }
     </style>
   </head>
   <body>
     <header>
-      <div class="title">杂志标题</div>
-      <div class="subtitle">副标题</div>
+      <h1>杂志风排版</h1>
+      <h2>用 HTML 和 CSS 制作</h2>
     </header>
     <div class="container">
       <div class="article">
-        <img src="https://picsum.photos/id/1074/800" alt="文章图片">
-<h2>文章标题</h2>
-<p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
-<p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
-<div class="caption">图片来源：Lorem Picsum</div>
-</div>
-<div class="article">
-<h2>另一篇文章标题</h2>
-<p>这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。</p>
-<p>这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。这里是另一篇文章的正文内容，同样可以写很长很长的内容，用于展示排版效果。</p>
-</div>
-</div>
-<footer>版权信息</footer>
-
+        <img src="https://picsum.photos/800/1074" alt="文章图片">
+        <h2>文章标题</h2>
+        <p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
+        <p>文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
+        <div class="caption">图片来源：Lorem Picsum</div>
+      </div>
+      <div class="article">
+        <h2>另一篇文章标题</h2>
+        <p>另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
+        <p>另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。另一篇文章正文内容，这里可以写很长很长的内容，用于展示排版效果。</p>
+        <img src="https://picsum.photos/800/534" alt="另一篇文章图片">
+        <div class="caption">图片来源：Lorem Picsum</div>
+      </div>
+    </div>
+    <footer>
+      <p>版权所有 &copy; 2023 杂志风排版</p>
+      <p>联系我们：magazine@magazine.com</p>
+    </footer>
   </body>
 </html>
