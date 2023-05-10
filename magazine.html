@@ -4,43 +4,70 @@
     <meta charset="UTF-8">
     <title>杂志标题</title>
     <style>
+      /* 设置全局样式 */
+      * {
+        box-sizing: border-box;
+      }
       body {
         font-family: 'Helvetica Neue', sans-serif;
         margin: 0;
         padding: 0;
+        background-color: #f5f5f5;
+        color: #333;
       }
-      header {
+      /* 设置页面布局 */
+      header, footer {
         background-color: #333;
         color: #fff;
-        padding: 20px;
         text-align: center;
-      }
-      h1 {
-        font-size: 36px;
-        margin-top: 0;
-      }
-      h2 {
-        font-size: 24px;
-        margin-top: 0;
-      }
-      .article {
-        max-width: 800px;
-        margin: 0 auto;
         padding: 20px;
+      }
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 40px 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        background-color: #fff;
+      }
+      /* 设置文章样式 */
+      .article {
+        flex-basis: calc(33.33% - 20px);
+        margin-bottom: 40px;
       }
       .article img {
         max-width: 100%;
+        height: auto;
       }
-      .caption {
+      .article h2 {
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      .article p {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+      .article .caption {
         font-style: italic;
         font-size: 14px;
         text-align: center;
+        margin-bottom: 10px;
       }
-      footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
+      /* 设置链接样式 */
+      a {
+        color: #333;
+        text-decoration: none;
+        border-bottom: 2px solid #333;
+        transition: border-bottom-color 0.2s ease-in-out;
+      }
+      a:hover {
+        border-bottom-color: #fff;
       }
     </style>
   </head>
@@ -49,12 +76,19 @@
       <h1>杂志标题</h1>
       <h2>副标题</h2>
     </header>
-    <div class="article">
-      <h2>文章标题</h2>
-      <img src="https://picsum.photos/id/10/800/400" alt="文章图片">
-      <div class="caption">图片来源：Lorem Picsum</div>
-      <p>这里是文章的内容，可以包含多段文字和图片等。</p>
-    </div>
+    <div class="container">
+      <div class="article">
+        <img src="https://picsum.photos/id/10/800/400" alt="文章图片">
+        <div class="caption">图片来源：Lorem Picsum</div>
+        <h2>文章标题</h2>
+        <p>这里是文章的内容，可以包含多段文字和图片等。这里是一个 <a href="#">链接示例</a>，点击它可以跳转到其他页面。</p>
+      </div>
+      <div class="article">
+        <img src="https://picsum.photos/id/20/800/400" alt="文章图片">
+        <div class="caption">图片来源：Lorem Picsum</div>
+        <h2>文章标题</h2>
+        <p>这里是文章的内容，可以包含多段文字和图片等。这里是一个 <a href="#">链接示例</a>，点击它可以跳转到其他页面。</p>
+      </div>
     <footer>
       © 2023 杂志标题
     </footer>
